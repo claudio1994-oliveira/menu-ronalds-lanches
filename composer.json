@@ -1,0 +1,16 @@
+{
+    "name": "claud/menu",
+    "description": "Cardapio com os produtos e pre\u0000os da lanchonete Ronald's Lanche's",
+    "autoload": {
+        "psr-4": {
+            "Claud\\Menu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cláudio Oliveira",
+            "email": "claudiooliveirajr1994@outlook.com"
+        }
+    ],
+    "require": {}
+}

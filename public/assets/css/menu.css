@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+body{
+background-color: #FFD700 /* rgba(255,255,0,0.5) */ ;
+	
+}
+
+.titulo{
+    color: rgb(255,0,0);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+
+.sub-titulo{
+    color: #FFFF00;
+}
+
+.categoria{
+    text-align: center;
+    font-family: 'Vast Shadow', cursive;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 424px) {
+ 
+ .categoria{
+    font-size: 30px;
+}
+}
+
+.categoria-danger{
+    color: #FFD700 ;
+}
+
+.nome-preco{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nome-produto{
+    font-size: 22px;
+}
+
+.preco-produto{
+    font-size: 18px;
+}
+
+.descricao-produto{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+}
+
+.descricao-produto-danger{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color: #FFD700 ;
+}
+footer{
+    color: yellow;
+}
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+.footer-titulo{
+      color: #66CDAA;
+      font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
